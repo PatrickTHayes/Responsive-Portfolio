@@ -239,8 +239,61 @@ input[type=submit] {
 }
 
 
-@media screen and (max-width: 980px) {}
+@media screen and (max-width: 980px) {
+  .main-section,
+  .auth-image {
+    clear: both;
+  }
+  .auth-image {
+    width: 90%;
+  }
+  div.work {
+    width: 100%;
+  }
+}
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+  .main-section,
+  .sidebar,
+  .auth-image {
+    float: left;
+    max-width: 95%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .auth-image {
+    width: 200px;
+  }
+  div.work {
+    width: 45%;
+  }
 
-@media screen and (max-width: 640px) {}
+}
+
+@media screen and (max-width: 640px) {
+  .main-section,
+  .sidebar {
+    float: left;
+    max-width: 95%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  nav,
+  #logo,
+  #masthead {
+    width: 100%;
+    min-width: 100%;
+    clear: both;
+    text-align: center;
+    vertical-align: middle;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+  }
+  div.work {
+    width: 95%;
+  }
+
+}
