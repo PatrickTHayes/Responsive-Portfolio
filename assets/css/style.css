@@ -295,5 +295,8 @@ input[type=submit] {
   div.work {
     width: 95%;
   }
+  #masthead {
+    position: relative;
+  }
 
 }
